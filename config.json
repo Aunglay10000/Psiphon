@@ -1,0 +1,35 @@
+{
+	"ProxyRotator": {
+		"Port": "9693"
+	},
+	"Inject": {
+		"Enable": true,
+		"Type": 2,
+		"Port": "8989",
+		"Rules": {
+    "akamai.net:80": [
+        "www.pubgmobile.com"
+
+     ]
+ 
+		},
+		"Payload": "",
+		"ServerNameIndication": "",
+		"MeekType": 0,
+		"Timeout": 5,
+		"ShowLog": false
+	},
+	"PsiphonCore": 4,
+"Psiphon": {
+    "CoreName": "core",
+    "Tunnel": 1,
+    "Region": "",
+    "Protocols": [
+        "FRONTED-MEEK-HTTP-OSSH",
+        "FRONTED-MEEK-OSSH"
+    ],
+    "TunnelWorkers": 8,
+    "KuotaDataLimit": 0,
+		"Authorizations": ["eyJBdXRob3JpemF0aW9uIjp7IklEIjoiV3VwdUVXcFBseXRuRkVweURLVDdCSVpVMy83cG42TjhINlp1NS82djFoVT0iLCJBY2Nlc3NUeXBlIjoiZ29vZ2xlLXN1YnNjcmlwdGlvbiIsIkV4cGlyZXMiOiIyMDI0LTAxLTI4VDEyOjIzOjIyWiJ9LCJTaWduaW5nS2V5SUQiOiJSY1g1K0pBZVVPam9XY0hvajQ1NjhYc1ZsQWJzMFFhc0FqKzFBRDYrbndRPSIsIlNpZ25hdHVyZSI6InRpTnRBRGwyQVI3a3d2M1dmNTZTcFRTclcxWG1PRUtpVW44WWJnMkpkdWYvZEltcDkzbldDRDJjaWFZaVpxQ2Q0Sndic2c5OVBmUk94YVdqdmNqM0FnPT0ifQ=="]
+	}
+}
