@@ -10,7 +10,7 @@ pkg install golang
 
 ### clone ပါ 
 
-git clone https://github.com/Aunglay1000/Yes.git 
+git clone https://github.com/Aunglay10000/Yes.git 
 
 cd Yes                         
 
